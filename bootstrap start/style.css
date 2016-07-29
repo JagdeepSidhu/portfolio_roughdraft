@@ -1,0 +1,44 @@
+* {
+	margin: 0% auto;
+	padding: 0%;
+}
+
+#wrapper{
+	background-color: grey;
+	width: 100%;
+}
+
+.navbar{
+	width: 30%;
+	padding: 0px;
+	margin-right: 5%;
+}
+
+#wrapper{
+	background-image: url(images/car.jpg);
+	background: grey;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+#content{
+	margin-top: 80px;
+}
+
+	#build{
+		border-radius: 5px;
+		background:#800000;
+		background: linear-gradient(#DC143C, #800000);
+		border: transparent;
+		padding: 10px 12px 10px 12px;
+		color: white;
+		margin: 0px 10px 0px 10px;
+	}
+
+	#employee{
+		border-radius: 5px;
+		background:#00008B;
+		background: linear-gradient(#1E90FF, #00008B);
+		border: transparent;
+		padding: 10px 12px 10px 12px;
+		color: white;

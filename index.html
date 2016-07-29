@@ -7,22 +7,88 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<!-- Latest compiled and minified CSS -->
 	<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<!-- <!Latest compiled and minified JavaScript -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
 	<title>Portfolio</title>
 </head>
 <body>
-	<div id="#wrapper">
-		<header id="header">
-			<ul>
-				<li>Home</li>
-				<li>Project</li>
-				<li>About Me</li>
-				<li>Contact</li>
-			</ul>	
-		</header>
+	<div class="container-fluid" >
+		<div id="wrapper">
+			<div class="row">
+				  <div class="col-md-8" id="home">
+						  <nav class="navbar navbar-inverse navbar-fixed-top">
+					  <div class="container-fluid">
+					    <div class="navbar-header">
+					     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						     	<span class="icon-bar"></span>
+				        		<span class="icon-bar"></span>
+				        		<span class="icon-bar"></span>
+				      		</button>
+					       <a class="navbar-brand" href="#"></a>
+						    </div>
+						    <div class="collapse navbar-collapse" id="myNavbar">
+						    <ul class="nav navbar-nav">
+						      <li class="active"><a href="#">Home</a></li>
+						      <li><a href="#projects">Project</a></li>
+						      <li><a href="#contact">Contact</a></li>
+						    </ul>
+						    <ul class="nav navbar-nav navbar-right">
+				        <li><a href="#about">Jagdeep Sidhu</a></li>
+					    </div>
+					</nav>
+					<div id="content">
+					  	<h3>Website Design</h3>
+					  	<p> Still learning how to make websites. Basic proficiency in HTML, CSS, jQuery, and Bootstrap.</p>
+					  	<button type="button" id="build">Looking To build A Website</button>
+					  	<button type="button" id="employee">Looking for an Employee</button>
+				  	</div>
+				  </div>
+			</div>
+			<div class="divider">
+				
+			</div>
+			<div class="row">
+				  <div id="projects" <a name="projects"></a>
+					  	<h3>Projects </h3>
+					  	<div class="box" id="proj1"></div>
+					  	<div class="box" id="proj2"></div>
+					  	<div class="box" id="proj3"></div>
+					  	<div class="box" id="proj4"></div>
+					  	<div class="box" id="proj5"></div>
+					  	<div class="box" id="proj6"></div>
+					  	<div class="box" id="proj7"></div>
+					  	<div class="box" id="proj8"></div>
+				</div>
+			</div>
+			<div class="divider">
+				
+			</div>
+			<div class="row">
+				  <div id="contact" >
+				  	<h4>Contact<a name="contact"></a></h4>
+					  <form id="form">
+							<ul>
+								<li><input  class="text" id="name" type="text" placeholder="Name" /></li>
+								<li><input class="text" id="email" type="text" placeholder="Email Address"/></li>
+								<li><input class="text" id="phone" type="text" placeholder="Phone Number"/></li>
+							</ul>
+							<textarea cols="60" rows="10" placeholder="Message"></textarea>
+							<input id="button" type="submit" value="Submit"/>
+						</form>
+				</div>
+			</div>
+			<div class="divider">
+				
+			</div>
+				  <div id="about" >
+				  	<h3>About Me <a name="about"></a></h3>
+				  	<p>I like to build things.  From working on cars to buildign websites.  I like of the challange of doing something my self to fully understand how something works.</p>
+				</div>
+				  </div>
+		</div>
 	</div>
 </body>
 </html>
