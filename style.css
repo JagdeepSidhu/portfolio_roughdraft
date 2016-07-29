@@ -154,13 +154,12 @@ textarea {
 
 #about img{
 	width: 20%;
-}
-#about img, #chev{
-	display: inline-block;
+	display: inline;
 }
 
 #chev{
-	width: 130%;
+	width: 700px;
+	display: inline;
 }
 
 #me{
